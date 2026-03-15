@@ -34,7 +34,7 @@ An automated ETL pipeline that collects real-time weather and air quality data f
 ## Project Structure
 
 ```bash
-weather_&_air_quality_dashboard/
+weather_air_quality_dashboard/
 ├── data/
 │   └── weather.db              # SQLite database (generated)
 ├── src/
@@ -84,7 +84,7 @@ weather_&_air_quality_dashboard/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/tomszy91/weather_&_air_quality_dashboard
+git clone https://github.com/tomszy91/weather_air_quality_dashboard
 cd weather_air_quality_dashboard
 ```
 
