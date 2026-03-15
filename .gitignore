@@ -1,0 +1,11 @@
+.env
+
+src/__pycache__
+
+.venv
+
+.vscode
+
+*.code-workspace
+
+research

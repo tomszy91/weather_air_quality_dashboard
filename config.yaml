@@ -1,0 +1,995 @@
+data:
+  database_dir: "data"
+
+location:
+  "Warszawa":
+    latitude: 52.2297
+    longitude: 21.0122
+  "Kraków":
+    latitude: 50.0647
+    longitude: 19.9450
+  "Łódź":
+    latitude: 51.7592
+    longitude: 19.4560
+  "Wrocław":
+    latitude: 51.1079
+    longitude: 17.0385
+  "Poznań":
+    latitude: 52.4064
+    longitude: 16.9252
+  "Gdańsk":
+    latitude: 54.3520
+    longitude: 18.6466
+  "Szczecin":
+    latitude: 53.4285
+    longitude: 14.5528
+  "Bydgoszcz":
+    latitude: 53.1235
+    longitude: 18.0084
+  "Lublin":
+    latitude: 51.2465
+    longitude: 22.5666
+  "Białystok":
+    latitude: 53.1325
+    longitude: 23.1688
+  "Katowice":
+    latitude: 50.2649
+    longitude: 19.0238
+  "Gdynia":
+    latitude: 54.5189
+    longitude: 18.5305
+  "Częstochowa":
+    latitude: 50.8118
+    longitude: 19.1203
+  "Radom":
+    latitude: 51.4027
+    longitude: 21.1471
+  "Sosnowiec":
+    latitude: 50.2863
+    longitude: 19.1041
+  "Toruń":
+    latitude: 53.0138
+    longitude: 18.5984
+  "Kielce":
+    latitude: 50.8661
+    longitude: 20.6286
+  "Rzeszów":
+    latitude: 50.0412
+    longitude: 21.9991
+  "Gliwice":
+    latitude: 50.2945
+    longitude: 18.6714
+  "Olsztyn":
+    latitude: 53.7784
+    longitude: 20.4801
+  "Zabrze":
+    latitude: 50.3081
+    longitude: 18.7857
+  "Bielsko-Biała":
+    latitude: 49.8225
+    longitude: 19.0444
+  "Bytom":
+    latitude: 50.3480
+    longitude: 18.9328
+  "Zielona Góra":
+    latitude: 51.9355
+    longitude: 15.5062
+  "Rybnik":
+    latitude: 50.1027
+    longitude: 18.5461
+  "Ruda Śląska":
+    latitude: 50.2575
+    longitude: 18.8550
+  "Opole":
+    latitude: 50.6751
+    longitude: 17.9213
+  "Tychy":
+    latitude: 50.1233
+    longitude: 18.9913
+  "Gorzów Wielkopolski":
+    latitude: 52.7325
+    longitude: 15.2369
+  "Elbląg":
+    latitude: 54.1559
+    longitude: 19.4045
+  "Płock":
+    latitude: 52.5464
+    longitude: 19.7065
+  "Dąbrowa Górnicza":
+    latitude: 50.3206
+    longitude: 19.1939
+  "Wałbrzych":
+    latitude: 50.7674
+    longitude: 16.2811
+  "Włocławek":
+    latitude: 52.6483
+    longitude: 19.0677
+  "Tarnów":
+    latitude: 50.0121
+    longitude: 20.9858
+  "Chorzów":
+    latitude: 50.2975
+    longitude: 18.9515
+  "Koszalin":
+    latitude: 54.1944
+    longitude: 16.1722
+  "Kalisz":
+    latitude: 51.7611
+    longitude: 18.0774
+  "Legnica":
+    latitude: 51.2070
+    longitude: 16.1553
+  "Grudziądz":
+    latitude: 53.4841
+    longitude: 18.7537
+  "Jaworzno":
+    latitude: 50.2051
+    longitude: 19.2727
+  "Słupsk":
+    latitude: 54.4641
+    longitude: 17.0285
+  "Jastrzębie-Zdrój":
+    latitude: 49.9535
+    longitude: 18.5913
+  "Nowy Sącz":
+    latitude: 49.6218
+    longitude: 20.6971
+  "Jelenia Góra":
+    latitude: 50.9045
+    longitude: 15.7194
+  "Siedlce":
+    latitude: 52.1670
+    longitude: 22.2905
+  "Konin":
+    latitude: 52.2234
+    longitude: 18.2512
+  "Piotrków Trybunalski":
+    latitude: 51.4052
+    longitude: 19.7032
+  "Mysłowice":
+    latitude: 50.2415
+    longitude: 19.1386
+  "Piła":
+    latitude: 53.1512
+    longitude: 16.7410
+  "Inowrocław":
+    latitude: 52.7984
+    longitude: 18.2639
+  "Lubin":
+    latitude: 51.3986
+    longitude: 16.2057
+  "Ostrów Wielkopolski":
+    latitude: 51.6486
+    longitude: 17.8106
+  "Ostrołęka":
+    latitude: 53.0850
+    longitude: 21.5755
+  "Suwałki":
+    latitude: 54.1115
+    longitude: 22.9307
+  "Gniezno":
+    latitude: 52.5348
+    longitude: 17.5826
+  "Stargard":
+    latitude: 53.3371
+    longitude: 15.0448
+  "Głogów":
+    latitude: 51.6635
+    longitude: 16.0844
+  "Siemianowice Śląskie":
+    latitude: 50.3015
+    longitude: 19.0238
+  "Pabianice":
+    latitude: 51.6626
+    longitude: 19.3563
+  "Zamość":
+    latitude: 50.7175
+    longitude: 23.2517
+  "Leszno":
+    latitude: 51.8403
+    longitude: 16.5749
+  "Chełm":
+    latitude: 51.1328
+    longitude: 23.4735
+  "Łomża":
+    latitude: 53.1781
+    longitude: 22.0591
+  "Żory":
+    latitude: 50.0460
+    longitude: 18.6922
+  "Tarnobrzeg":
+    latitude: 50.5704
+    longitude: 21.6773
+  "Tomaszów Mazowiecki":
+    latitude: 51.5229
+    longitude: 20.0105
+  "Ełk":
+    latitude: 53.8282
+    longitude: 22.3619
+  "Pruszków":
+    latitude: 52.1691
+    longitude: 20.8143
+  "Bełchatów":
+    latitude: 51.3688
+    longitude: 19.3562
+  "Mielec":
+    latitude: 50.2892
+    longitude: 21.4253
+  "Świdnica":
+    latitude: 50.8433
+    longitude: 16.4885
+  "Tczew":
+    latitude: 54.0886
+    longitude: 18.7758
+  "Racibórz":
+    latitude: 50.0911
+    longitude: 18.2198
+  "Mędrzychów":
+    latitude: 50.2458
+    longitude: 20.9317
+  "Żywiec":
+    latitude: 49.6881
+    longitude: 19.2017
+  "Bolesławiec":
+    latitude: 51.2642
+    longitude: 15.5656
+  "Tarnowskie Góry":
+    latitude: 50.4437
+    longitude: 18.8576
+  "Będzin":
+    latitude: 50.3242
+    longitude: 19.1294
+  "Olkusz":
+    latitude: 50.2798
+    longitude: 19.5583
+  "Zgierz":
+    latitude: 51.8587
+    longitude: 19.4124
+  "Wadowice":
+    latitude: 49.8835
+    longitude: 19.4936
+  "Kędzierzyn-Koźle":
+    latitude: 50.3456
+    longitude: 18.2123
+  "Grodzisk Mazowiecki":
+    latitude: 52.1044
+    longitude: 20.6300
+  "Bieruń":
+    latitude: 50.0898
+    longitude: 19.0917
+  "Cieszyn":
+    latitude: 49.7494
+    longitude: 18.6322
+  "Puławy":
+    latitude: 51.4162
+    longitude: 21.9694
+  "Wołomin":
+    latitude: 52.3483
+    longitude: 21.2405
+  "Kutno":
+    latitude: 52.2312
+    longitude: 19.3571
+  "Nysa":
+    latitude: 50.4735
+    longitude: 17.3323
+  "Mikołów":
+    latitude: 50.1651
+    longitude: 18.9044
+  "Skarżysko-Kamienna":
+    latitude: 51.1187
+    longitude: 20.8714
+  "Ciechanów":
+    latitude: 52.8805
+    longitude: 20.6128
+  "Dębica":
+    latitude: 50.0515
+    longitude: 21.4114
+  "Otwock":
+    latitude: 52.1054
+    longitude: 21.2618
+  "Kołobrzeg":
+    latitude: 54.1759
+    longitude: 15.5830
+  "Żyrardów":
+    latitude: 52.0524
+    longitude: 20.4434
+  "Świdnik":
+    latitude: 51.2185
+    longitude: 22.6953
+  "Bolesławiec":
+    latitude: 51.2642
+    longitude: 15.5656
+  "Oleśnica":
+    latitude: 51.2114
+    longitude: 17.3820
+  "Malbork":
+    latitude: 54.0359
+    longitude: 19.0266
+  "Jarosław":
+    latitude: 50.0163
+    longitude: 22.6766
+  "Kwidzyn":
+    latitude: 53.7346
+    longitude: 18.9213
+  "Sandomierz":
+    latitude: 50.6823
+    longitude: 21.7485
+  "Kraśnik":
+    latitude: 50.9238
+    longitude: 22.2155
+  "Nowy Targ":
+    latitude: 49.4831
+    longitude: 20.0304
+  "Lębork":
+    latitude: 54.5393
+    longitude: 17.7505
+  "Police":
+    latitude: 53.5516
+    longitude: 14.5714
+  "Ostróda":
+    latitude: 53.6961
+    longitude: 19.9654
+  "Bochnia":
+    latitude: 49.9686
+    longitude: 20.4299
+  "Łowicz":
+    latitude: 52.1068
+    longitude: 19.9463
+  "Iława":
+    latitude: 53.5962
+    longitude: 19.5655
+  "Gorlice":
+    latitude: 49.6586
+    longitude: 21.1601
+  "Myszków":
+    latitude: 50.5750
+    longitude: 19.3242
+  "Końskie":
+    latitude: 51.1895
+    longitude: 20.4087
+  "Giżycko":
+    latitude: 54.0384
+    longitude: 21.7644
+  "Sieradz":
+    latitude: 51.5959
+    longitude: 18.7303
+  "Wieluń":
+    latitude: 51.2205
+    longitude: 18.5713
+  "Łańcut":
+    latitude: 50.0673
+    longitude: 22.2302
+  "Kluczbork":
+    latitude: 50.9723
+    longitude: 18.2145
+  "Przeworsk":
+    latitude: 50.0592
+    longitude: 22.4925
+  "Sanok":
+    latitude: 49.5608
+    longitude: 22.2036
+  "Krotoszyn":
+    latitude: 51.6983
+    longitude: 17.4361
+  "Środa Wielkopolska":
+    latitude: 52.2289
+    longitude: 17.2721
+  "Szamotuły":
+    latitude: 52.6120
+    longitude: 16.5779
+  "Wolsztyn":
+    latitude: 52.1154
+    longitude: 16.1172
+  "Lipno":
+    latitude: 52.8436
+    longitude: 19.1764
+  "Śrem":
+    latitude: 52.0888
+    longitude: 17.0151
+  "Hajnówka":
+    latitude: 52.7433
+    longitude: 23.5810
+  "Bielsk Podlaski":
+    latitude: 52.7661
+    longitude: 23.1873
+  "Grajewo":
+    latitude: 53.6457
+    longitude: 22.4542
+  "Sejny":
+    latitude: 54.1064
+    longitude: 23.3484
+  "Mońki":
+    latitude: 53.4069
+    longitude: 22.7966
+  "Kolno":
+    latitude: 53.4101
+    longitude: 21.9333
+  "Siemiatycze":
+    latitude: 52.4273
+    longitude: 22.8624
+  "Wysokie Mazowieckie":
+    latitude: 52.9192
+    longitude: 22.5152
+  "Augustów":
+    latitude: 53.8434
+    longitude: 22.9796
+  "Mrągowo":
+    latitude: 53.8643
+    longitude: 21.3052
+  "Kętrzyn":
+    latitude: 54.0759
+    longitude: 21.3755
+  "Bartoszyce":
+    latitude: 54.2533
+    longitude: 20.8078
+  "Braniewo":
+    latitude: 54.3803
+    longitude: 19.8208
+  "Lidzbark Warmiński":
+    latitude: 54.1265
+    longitude: 20.5807
+  "Gołdap":
+    latitude: 54.3060
+    longitude: 22.3032
+  "Olecko":
+    latitude: 54.0336
+    longitude: 22.5042
+  "Pisz":
+    latitude: 53.6279
+    longitude: 21.8138
+  "Nidzica":
+    latitude: 53.3592
+    longitude: 20.4262
+  "Działdowo":
+    latitude: 53.2346
+    longitude: 20.1772
+  "Nowe Miasto Lubawskie":
+    latitude: 53.4245
+    longitude: 19.5939
+  "Węgorzewo":
+    latitude: 54.2120
+    longitude: 21.7388
+  "Gryfice":
+    latitude: 53.9103
+    longitude: 15.1983
+  "Gryfino":
+    latitude: 53.2530
+    longitude: 14.4883
+  "Kamień Pomorski":
+    latitude: 53.9734
+    longitude: 14.7877
+  "Goleniów":
+    latitude: 53.5641
+    longitude: 14.8286
+  "Pyrzyce":
+    latitude: 53.1430
+    longitude: 14.8893
+  "Myślibórz":
+    latitude: 52.9238
+    longitude: 14.8631
+  "Choszczno":
+    latitude: 53.1678
+    longitude: 15.4181
+  "Drawsko Pomorskie":
+    latitude: 53.5317
+    longitude: 15.8116
+  "Wałcz":
+    latitude: 53.2727
+    longitude: 16.4716
+  "Łobez":
+    latitude: 53.6375
+    longitude: 15.6213
+  "Świdwin":
+    latitude: 53.7745
+    longitude: 15.7766
+  "Białogard":
+    latitude: 54.0051
+    longitude: 15.9868
+  "Szczecinek":
+    latitude: 53.7073
+    longitude: 16.6990
+  "Sławno":
+    latitude: 54.3629
+    longitude: 16.6800
+  "Police":
+    latitude: 53.5516
+    longitude: 14.5714
+  "Chodzież":
+    latitude: 52.9917
+    longitude: 16.9174
+  "Czarnków":
+    latitude: 52.9023
+    longitude: 16.5651
+  "Gostyń":
+    latitude: 51.8837
+    longitude: 17.0121
+  "Jarocin":
+    latitude: 51.9739
+    longitude: 17.5024
+  "Kępno":
+    latitude: 51.2789
+    longitude: 17.9882
+  "Kościan":
+    latitude: 52.0877
+    longitude: 16.6473
+  "Międzychód":
+    latitude: 52.5979
+    longitude: 15.8891
+  "Nowy Tomyśl":
+    latitude: 52.3168
+    longitude: 16.1332
+  "Oborniki":
+    latitude: 52.6517
+    longitude: 16.8164
+  "Ostrzeszów":
+    latitude: 51.4285
+    longitude: 17.9250
+  "Pleszew":
+    latitude: 51.8955
+    longitude: 17.7844
+  "Rawicz":
+    latitude: 51.6091
+    longitude: 16.8576
+  "Słupca":
+    latitude: 52.2907
+    longitude: 17.8722
+  "Środa Wielkopolska":
+    latitude: 52.2289
+    longitude: 17.2721
+  "Śrem":
+    latitude: 52.0888
+    longitude: 17.0151
+  "Turek":
+    latitude: 52.0157
+    longitude: 18.5015
+  "Wągrowiec":
+    latitude: 52.8077
+    longitude: 17.2001
+  "Wolsztyn":
+    latitude: 52.1154
+    longitude: 16.1172
+  "Września":
+    latitude: 52.3251
+    longitude: 17.5647
+  "Złotów":
+    latitude: 53.3614
+    longitude: 17.0421
+  "Aleksandrów Kujawski":
+    latitude: 52.8765
+    longitude: 18.6922
+  "Brodnica":
+    latitude: 53.2573
+    longitude: 19.4042
+  "Chełmno":
+    latitude: 53.3486
+    longitude: 18.4239
+  "Golub-Dobrzyń":
+    latitude: 53.1119
+    longitude: 19.0538
+  "Rypin":
+    latitude: 53.0673
+    longitude: 19.4093
+  "Sępolno Krajeńskie":
+    latitude: 53.4475
+    longitude: 17.5213
+  "Świecie":
+    latitude: 53.4094
+    longitude: 18.4468
+  "Tuchola":
+    latitude: 53.5878
+    longitude: 17.8592
+  "Wąbrzeźno":
+    latitude: 53.2794
+    longitude: 18.9482
+  "Żnin":
+    latitude: 52.8491
+    longitude: 17.7188
+  "Busko-Zdrój":
+    latitude: 50.4705
+    longitude: 20.7188
+  "Jędrzejów":
+    latitude: 50.6393
+    longitude: 20.3015
+  "Kazimierza Wielka":
+    latitude: 50.2730
+    longitude: 20.4851
+  "Opatów":
+    latitude: 50.8038
+    longitude: 21.4243
+  "Ostrowiec Świętokrzyski":
+    latitude: 50.9298
+    longitude: 21.3869
+  "Pińczów":
+    latitude: 50.5210
+    longitude: 20.5255
+  "Staszów":
+    latitude: 50.5631
+    longitude: 21.1643
+  "Włoszczowa":
+    latitude: 50.8533
+    longitude: 19.9673
+  "Biała Podlaska":
+    latitude: 52.0341
+    longitude: 23.1274
+  "Biłgoraj":
+    latitude: 50.5408
+    longitude: 22.7214
+  "Janów Lubelski":
+    latitude: 50.7071
+    longitude: 22.4116
+  "Krasnystaw":
+    latitude: 50.9850
+    longitude: 23.1738
+  "Lubartów":
+    latitude: 51.4631
+    longitude: 22.6071
+  "Łęczna":
+    latitude: 51.3014
+    longitude: 22.8821
+  "Łuków":
+    latitude: 51.9288
+    longitude: 22.3842
+  "Opole Lubelskie":
+    latitude: 51.1471
+    longitude: 21.9689
+  "Parczew":
+    latitude: 51.6402
+    longitude: 22.9016
+  "Radzyń Podlaski":
+    latitude: 51.7825
+    longitude: 22.6206
+  "Ryki":
+    latitude: 51.6289
+    longitude: 21.9332
+  "Tomaszów Lubelski":
+    latitude: 50.4485
+    longitude: 23.4162
+  "Włodawa":
+    latitude: 51.5471
+    longitude: 23.5516
+  "Hrubieszów":
+    latitude: 50.8038
+    longitude: 23.8913
+  "Brzesko":
+    latitude: 49.9691
+    longitude: 20.6062
+  "Chrzanów":
+    latitude: 50.1354
+    longitude: 19.4020
+  "Dąbrowa Tarnowska":
+    latitude: 50.1747
+    longitude: 20.9858
+  "Gorlice":
+    latitude: 49.6586
+    longitude: 21.1601
+  "Limanowa":
+    latitude: 49.7020
+    longitude: 20.4223
+  "Miechów":
+    latitude: 50.3575
+    longitude: 20.0321
+  "Myślenice":
+    latitude: 49.8331
+    longitude: 19.9405
+  "Oświęcim":
+    latitude: 50.0346
+    longitude: 19.2238
+  "Proszowice":
+    latitude: 50.1915
+    longitude: 20.2878
+  "Sucha Beskidzka":
+    latitude: 49.7423
+    longitude: 19.5932
+  "Wieliczka":
+    latitude: 49.9873
+    longitude: 20.0647
+  "Brzeg":
+    latitude: 50.8607
+    longitude: 17.4674
+  "Głubczyce":
+    latitude: 50.2012
+    longitude: 17.8286
+  "Krapkowice":
+    latitude: 50.4754
+    longitude: 17.9654
+  "Namysłów":
+    latitude: 51.0765
+    longitude: 17.7144
+  "Olesno":
+    latitude: 50.8756
+    longitude: 18.4173
+  "Prudnik":
+    latitude: 50.3218
+    longitude: 17.5815
+  "Strzelce Opolskie":
+    latitude: 50.5113
+    longitude: 18.3006
+  "Ustrzyki Dolne":
+    latitude: 49.4304
+    longitude: 22.5932
+  "Brzozów":
+    latitude: 49.7041
+    longitude: 22.0191
+  "Kolbuszowa":
+    latitude: 50.2505
+    longitude: 21.7631
+  "Krosno":
+    latitude: 49.6888
+    longitude: 21.7645
+  "Lesko":
+    latitude: 49.4716
+    longitude: 22.3297
+  "Leżajsk":
+    latitude: 50.2642
+    longitude: 22.4188
+  "Lubaczów":
+    latitude: 50.1585
+    longitude: 23.1235
+  "Nisko":
+    latitude: 50.5191
+    longitude: 22.1386
+  "Przemyśl":
+    latitude: 49.7834
+    longitude: 22.7679
+  "Ropczyce":
+    latitude: 50.0521
+    longitude: 21.6094
+  "Stalowa Wola":
+    latitude: 50.5772
+    longitude: 22.0543
+  "Strzyżów":
+    latitude: 49.8726
+    longitude: 21.7925
+  "Białobrzegi":
+    latitude: 51.6465
+    longitude: 20.9493
+  "Garwolin":
+    latitude: 51.8973
+    longitude: 21.6152
+  "Gostynin":
+    latitude: 52.4294
+    longitude: 19.4624
+  "Grodzisk Mazowiecki":
+    latitude: 52.1044
+    longitude: 20.6300
+  "Grójec":
+    latitude: 51.8617
+    longitude: 20.8676
+  "Kozienice":
+    latitude: 51.5855
+    longitude: 21.5647
+  "Legionowo":
+    latitude: 52.4013
+    longitude: 20.9328
+  "Lipsko":
+    latitude: 51.1594
+    longitude: 21.6521
+  "Łosice":
+    latitude: 52.2125
+    longitude: 22.7169
+  "Maków Mazowiecki":
+    latitude: 52.8647
+    longitude: 21.1005
+  "Mińsk Mazowiecki":
+    latitude: 52.1793
+    longitude: 21.5726
+  "Mława":
+    latitude: 53.1118
+    longitude: 20.3831
+  "Nowy Dwór Mazowiecki":
+    latitude: 52.4300
+    longitude: 20.7188
+  "Ostrów Mazowiecka":
+    latitude: 52.8023
+    longitude: 21.8967
+  "Piaseczno":
+    latitude: 52.0738
+    longitude: 21.0270
+  "Płońsk":
+    latitude: 52.6247
+    longitude: 20.3752
+  "Przasnysz":
+    latitude: 53.0182
+    longitude: 20.8805
+  "Pułtusk":
+    latitude: 52.7042
+    longitude: 21.0831
+  "Sierpc":
+    latitude: 52.8524
+    longitude: 19.6669
+  "Sochaczew":
+    latitude: 52.2274
+    longitude: 20.2384
+  "Sokołów Podlaski":
+    latitude: 52.4057
+    longitude: 22.2476
+  "Szydłowiec":
+    latitude: 51.2255
+    longitude: 20.8543
+  "Węgrów":
+    latitude: 52.3995
+    longitude: 22.0163
+  "Wyszków":
+    latitude: 52.5934
+    longitude: 21.4601
+  "Zwoleń":
+    latitude: 51.3551
+    longitude: 21.5835
+  "Żuromin":
+    latitude: 53.0652
+    longitude: 19.9103
+  "Bytów":
+    latitude: 54.1691
+    longitude: 17.4912
+  "Chojnice":
+    latitude: 53.6960
+    longitude: 17.5562
+  "Człuchów":
+    latitude: 53.6644
+    longitude: 17.3621
+  "Kartuzy":
+    latitude: 54.3343
+    longitude: 18.2045
+  "Kościerzyna":
+    latitude: 54.1221
+    longitude: 17.9813
+  "Nowy Dwór Gdański":
+    latitude: 54.2123
+    longitude: 19.1174
+  "Puck":
+    latitude: 54.7171
+    longitude: 18.4116
+  "Starogard Gdański":
+    latitude: 53.9632
+    longitude: 18.5256
+  "Sztum":
+    latitude: 53.9213
+    longitude: 19.0345
+  "Wejherowo":
+    latitude: 54.6041
+    longitude: 18.2364
+  "Będzin":
+    latitude: 50.3242
+    longitude: 19.1294
+  "Kłobuck":
+    latitude: 50.9038
+    longitude: 18.9372
+  "Lubliniec":
+    latitude: 50.6685
+    longitude: 18.6828
+  "Pszczyna":
+    latitude: 49.9774
+    longitude: 18.9423
+  "Zawiercie":
+    latitude: 50.4877
+    longitude: 19.4172
+  "Dzierżoniów":
+    latitude: 50.7282
+    longitude: 16.6506
+  "Głogów":
+    latitude: 51.6635
+    longitude: 16.0844
+  "Góra":
+    latitude: 51.6666
+    longitude: 16.5333
+  "Jawor":
+    latitude: 51.0505
+    longitude: 16.1935
+  "Kamienna Góra":
+    latitude: 50.7831
+    longitude: 15.3015
+  "Kłodzko":
+    latitude: 50.4381
+    longitude: 16.6534
+  "Lubań":
+    latitude: 51.1197
+    longitude: 15.2891
+  "Lwówek Śląski":
+    latitude: 51.1107
+    longitude: 15.5843
+  "Milicz":
+    latitude: 51.5284
+    longitude: 17.2713
+  "Oława":
+    latitude: 50.9419
+    longitude: 17.2917
+  "Polkowice":
+    latitude: 51.5034
+    longitude: 16.0682
+  "Strzelin":
+    latitude: 50.7813
+    longitude: 17.0674
+  "Środa Śląska":
+    latitude: 51.1633
+    longitude: 16.5925
+  "Trzebnica":
+    latitude: 51.3111
+    longitude: 17.0632
+  "Wołów":
+    latitude: 51.3364
+    longitude: 16.6433
+  "Ząbkowice Śląskie":
+    latitude: 50.5891
+    longitude: 16.8123
+  "Zgorzelec":
+    latitude: 51.1506
+    longitude: 15.0084
+  "Złotoryja":
+    latitude: 51.1264
+    longitude: 15.9189
+  "Krosno Odrzańskie":
+    latitude: 52.0456
+    longitude: 15.0975
+  "Międzyrzecz":
+    latitude: 52.4437
+    longitude: 15.5833
+  "Nowa Sól":
+    latitude: 51.8037
+    longitude: 15.7135
+  "Słubice":
+    latitude: 52.3477
+    longitude: 14.5615
+  "Strzelce Krajeńskie":
+    latitude: 52.8774
+    longitude: 15.5312
+  "Sulęcin":
+    latitude: 52.4434
+    longitude: 15.1166
+  "Świebodzin":
+    latitude: 52.2474
+    longitude: 15.5342
+  "Wschowa":
+    latitude: 51.8043
+    longitude: 16.3151
+  "Żagań":
+    latitude: 51.6166
+    longitude: 15.3166
+  "Żary":
+    latitude: 51.6333
+    longitude: 15.1333
+  "Bełchatów":
+    latitude: 51.3688
+    longitude: 19.3562
+  "Brzeziny":
+    latitude: 51.8000
+    longitude: 19.7500
+  "Łask":
+    latitude: 51.5898
+    longitude: 19.1333
+  "Łowicz":
+    latitude: 52.1068
+    longitude: 19.9463
+  "Opoczno":
+    latitude: 51.3781
+    longitude: 20.2855
+  "Pajęczno":
+    latitude: 51.1448
+    longitude: 18.9972
+  "Poddębice":
+    latitude: 51.8903
+    longitude: 18.9625
+  "Rawicz":
+    latitude: 51.6091
+    longitude: 16.8576
+  "Sieradz":
+    latitude: 51.5959
+    longitude: 18.7303
+  "Wieluń":
+    latitude: 51.2205
+    longitude: 18.5713
+  "Wieruszów":
+    latitude: 51.2944
+    longitude: 18.1513
+  "Zduńska Wola":
+    latitude: 51.6014
+    longitude: 18.9392
+
+display:  
+  units: metric
+
+air_quality_stations:
+  radius: 12000
+
+url:
+  openweathermap: https://api.openweathermap.org/data/2.5/weather?
+  openaq: https://api.openaq.org/v3/locations/
