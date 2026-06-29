@@ -134,7 +134,11 @@ This will:
 ### 6. Analyze the data
 
 ```bash
-jupyter notebook analysis_notebook.ipynb
+# Recommended approach (works on all systems)
+python -m notebook analysis_notebook.ipynb
+
+# Alternative (if jupyter is in your PATH)
+jupyter-notebook analysis_notebook.ipynb
 ```
 
 The analysis notebook includes:
